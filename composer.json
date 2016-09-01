@@ -20,13 +20,10 @@
             "email": "kphcdr@163.com"
         }
     ],
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "http://packagist.phpcomposer.com"
-        },
-        {
-            "packagist": false
-        }
-    ]
+    "repositories": {
+	    "packagist": {
+	        "type": "composer",
+	        "url": "https://packagist.phpcomposer.com"
+	    }
+	}
 }
